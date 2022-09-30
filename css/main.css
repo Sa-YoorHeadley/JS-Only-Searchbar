@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
 *, *::before, *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -23,7 +22,6 @@ body {
   margin: 0 auto;
   position: relative;
 }
-
 .search-container input {
   color: white;
   padding: 0.5rem 1.5rem;
@@ -31,16 +29,13 @@ body {
   width: 100%;
   background-color: transparent;
   border: 3px solid grey;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   outline: none;
-  -webkit-transition: 150ms ease-in-out;
   transition: 150ms ease-in-out;
 }
-
 .search-container input:hover, .search-container input:focus {
   border-color: white;
 }
-
 .search-container i {
   position: absolute;
   top: 0.7rem;
@@ -53,54 +48,33 @@ body {
   margin: 0 auto;
   padding: 1rem 0;
   list-style: none;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(400px, 1fr))[2];
-      grid-template-columns: repeat(2, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 1.5rem;
 }
-
 .character-list .character {
   color: black;
   text-align: left;
   background-color: white;
-  border-radius: .5rem;
-  display: -ms-grid;
+  border-radius: 0.5rem;
   display: grid;
-  -ms-grid-columns: 3fr 1fr;
-      grid-template-columns: 3fr 1fr;
-      grid-template-areas: 'name image' 'house image' 'patronus image';
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "name image" "house image" "patronus image";
   padding: 1rem 1.75rem;
 }
-
 .character-list .character .name {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
   grid-area: name;
-  margin-bottom: -.25rem;
+  margin-bottom: -0.25rem;
 }
-
 .character-list .character .house {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
   grid-area: house;
-  margin-bottom: -.25rem;
+  margin-bottom: -0.25rem;
 }
-
 .character-list .character .patronus {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
   grid-area: patronus;
 }
-
 .character-list .character .image {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 3;
-  -ms-grid-column: 2;
   grid-area: image;
   max-height: 100px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-/*# sourceMappingURL=main.css.map */
+  align-self: center;
+}/*# sourceMappingURL=main.css.map */
