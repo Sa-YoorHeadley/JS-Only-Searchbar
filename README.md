@@ -25,7 +25,7 @@ This simple is a responsive JavaScript app that calls the Harry Potter API and f
 ### Concepts Used
 - Responsive Web Design
 - CSS Grid
-- DOM Manipulation, Adding CSS classes, Event Listeners
+- DOM Manipulation, Adding CSS classes, Event Listeners, Conditional Rendering
 - Serving APIs, Array functions (filter, forEach)
 
 <!-- Video -->
