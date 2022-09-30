@@ -19,6 +19,8 @@
 
 <br />
 
+## Description 
+This simple is a responsive JavaScript app that calls the Harry Potter API and filters the results. The characters are displayed on the screen as cards using CSS Grid. Results are filtered based on the first name, last name, house and patronus.
 <!-- Video -->
 <div align="center"> 
   <img src="https://github.com/Sa-YoorHeadley/JS-Only-Searchbar/blob/main/assets/Preview.gif?raw=true" alt="screenshot" />
