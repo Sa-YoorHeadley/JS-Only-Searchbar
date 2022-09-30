@@ -62,4 +62,4 @@ Alt + O
 <!-- Acknowledgements -->
 ## Acknowledgements
 
-- [Harry Potter API]("http://hp-api.herokuapp.com")
+- [Harry Potter API](http://hp-api.herokuapp.com)
