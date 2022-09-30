@@ -33,6 +33,8 @@ This simple is a responsive JavaScript app that calls the Harry Potter API and f
   <img src="https://github.com/Sa-YoorHeadley/JS-Only-Searchbar/blob/main/assets/Preview.gif?raw=true" alt="screenshot" />
 </div>
 
+> [Live URL](https://sa-yoorheadley.github.io/photo-journal/)
+
 <br />
 
 <!-- TechStack -->
