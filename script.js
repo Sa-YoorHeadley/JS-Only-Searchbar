@@ -3,12 +3,12 @@ const searchBar = document.getElementById("search-bar")
 let characters = []
 
 searchBar.addEventListener('input', () =>{
-    const searchKey = searchBar.value.toLowerCase()
+    const searchKey = searchBar.value.trim().toLowerCase()
 
     const matchedCharacters = characters.filter(character =>{
-        return character.name.toLowerCase().includes(searchKey) || 
-        character.house.toLowerCase().includes(searchKey) || 
-        character.patronus.toLowerCase().includes(searchKey)
+        return character.name.trim().toLowerCase().includes(searchKey) || 
+        character.house.trim().toLowerCase().includes(searchKey) || 
+        character.patronus.trim().toLowerCase().includes(searchKey)
     })
     console.log(matchedCharacters) 
     displayCharacters(matchedCharacters)
