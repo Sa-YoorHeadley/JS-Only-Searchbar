@@ -16,7 +16,7 @@ searchBar.addEventListener('input', () =>{
 
 const loadCharacters = async () =>{
     try{
-        const res = await fetch("http://hp-api.herokuapp.com/api/characters")
+        const res = await fetch("https://hp-api.herokuapp.com/api/characters")
         characters = await res.json()
         characters = characters.filter(character =>{
             return character.image != ""
