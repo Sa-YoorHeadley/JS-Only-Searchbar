@@ -3,7 +3,7 @@
   <h1>JS Only Searchbar</h1>
   
   <p>
-    Simple JavaScript app that calls the Harry Potter API and filters the results. 
+    JavaScript app that calls the Harry Potter API and filters the results using a search bar.
   </p>
   
 <!-- Badges -->
